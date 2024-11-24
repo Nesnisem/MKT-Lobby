@@ -1,0 +1,326 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="icon" href="https://www.linkpicture.com/q/C951107A-E8F9-40FF-A4AD-8ECD946D0E98.png"/>
+  <title>ProCuts Collection</title>
+<style>
+  body {
+    background-color: #1C1C1E;
+    color: #AAAAAA;
+    font-family: system-ui;
+    max-width: 650px;
+    margin:0px;
+    padding:0px;
+    padding-bottom:5%;
+    }
+  p,h1,h2{
+    padding-left:5%;
+    padding-right:5%
+}
+    p{
+      font-size:18px;
+      color: #AAAAAA;
+      font-weight:400;
+    }
+       img{
+         width:90%;
+         border-radius:5px;
+     }
+    h1 {
+      font-weight:800;
+      font-size:55px;
+      text-align:center;
+    }
+      h2{
+     font-weight:600;
+     font-size:33px;
+     color:#f1f1f1;
+     text-align:center;
+    }
+      h3 {
+     font-weight:800;
+     font-size:25px;
+     color:#f1f1f1;
+     text-align:center;
+  }
+    .Slogan {
+      font-size:22px;
+      font-weight:600px;
+      text-align:center;
+    }
+     .icon {
+      width:75px;
+      height:75px;
+     }
+  .mainicon{
+      width:100px;
+      height:100px;
+      border:1px solid black;
+}
+  .phone{width:70%}
+  .download{
+    text-decoration:none;
+    padding:5px;
+    border:1px solid #AAAAAA;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:bold;
+    background-color:transparent;
+  }
+  .tealhover:hover{color:#1c1c1e;background-color:#58BFA2;}
+    .greenhover:hover{color:#1c1c1e;background-color:#74C974;}
+  .redhover:hover{color:#1c1c1e;background-color:#DC6263;}
+  .orangehover:hover{color:#1c1c1e;background-color:#E7A152;}
+    .violethover:hover{color:#1c1c1e;background-color:#724BAB;}
+    .bluehover:hover{color:#1c1c1e;background-color:#42A7E9;}
+  .fixed{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    background-color: #1C1C1E;
+    padding:10px;
+}
+  .bottom{margin-bottom:100px;}
+        .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #aaaaaa;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg)                      translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      .change .bar2 {opacity: 0;}
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+      .navbutton {
+        width:100%;
+        background-color: #1C1C1E;
+        margin:0px;
+        padding:0px;
+        height:40px;
+        border:none;
+        font-size:20px;
+        text-align:left;
+        color:#aaa;
+        border-bottom:3px solid black;
+      }
+      .navbutton:hover {
+        background-color:#505050;
+      }
+      .nav {
+        background-color: #1C1C1E;
+        border: none;
+        cursor: pointer;
+        width:100%;
+        padding-top:5px;
+        padding-bottom:5px;
+        border-bottom:3px solid black;
+      }
+  #tools a {color:#f1f1f1;}
+    .yellowgreen{color:#7ff03c;}
+  .teal{color:#58BFA2;}
+  .green{color:#74C974;}
+  .red{color:#DC6263;}
+  .orange{color:#E7A152;}
+  .violet{color:#724BAB;}
+  .blue{color:#42A7E9;}
+    </style>
+</head>
+    <body>
+    <div onclick="toptoggle();nav()" class="nav"><center><div id="topmenu"class="container">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div></center></div>
+    <div id="navbuttons" style="display:none;">
+      <button class="navbutton" onclick="toptoggle();nav();display('home')">&nbsp;&nbsp;Home</button>
+      <button class="navbutton" onclick="toptoggle();nav();window.open('https://github.com/Normal-Tangerine8609/ProCuts-Collection/blob/main/ProCuts-Collection.html')">&nbsp;&nbsp;GitHub Sorce Code</button>
+      <button class="navbutton" onclick="toptoggle();nav();display('tools')">&nbsp;&nbsp;Helpful Tools</button>
+      <button class="navbutton teal" onclick="toptoggle();nav();display('sharpUpdater')">&nbsp;&nbsp;Sharp Updater</button>
+     <button class="navbutton red" onclick="toptoggle();nav();display('fancyListMaker')">&nbsp;&nbsp;Fancy List Maker</button>
+    <button class="navbutton green" onclick="toptoggle();nav();display('fontSwitcher')">&nbsp;&nbsp;Font Switcher</button>
+    <button class="navbutton orange" onclick="toptoggle();nav();display('quickLookHTMLGenerator')">&nbsp;&nbsp;Quick Look HTML Generator</button>
+    <button class="navbutton violet" onclick="toptoggle();nav();display('GFVIC')">&nbsp;&nbsp;Material Icon Creator</button>
+    <button class="navbutton blue" onclick="toptoggle();nav();display('vCards')">&nbsp;&nbsp;Coloured vCards</button>
+      </div>
+      <div id="home">
+      <h1 class="yellowgreen">ProCuts Collection</h1>
+      <p class="slogan yellowgreen">A collection of development-based shortcuts created to empower your shortcuts and shortcutting experience</p>
+      
+        <h1 class="teal">Sharp Updater</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/7F04C9C0-041F-4334-A7CA-EF3412779201.png"></center>
+      <p class="slogan teal">Clean, 7-Action Embedded Visual Shortcut Updater</p>
+        <center><button class="download teal tealhover" onclick="display('sharpUpdater')">Read More</button>
+        <a href="https://routinehub.co/shortcut/9073/" class="download teal tealhover">Get This Shortcut</a></center>
+        
+       <h1 class="red">Fancy List Maker</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/DB8EDC56-7027-4170-BC09-BC7563DE6C8C.png"></center>
+      <p class="slogan red">The best vCard maker. Edit, add, remove or rearrange items in your vCard menu with ease</p>
+        <center><button class="download red redhover" onclick="display('fancyListMaker')">Read More</button>
+        <a href="https://routinehub.co/shortcut/9083/" class="download red redhover">Get This Shortcut</a></center>
+        
+        <h1 class="green">Font Switcher</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/9F666571-F1B3-41CB-AABE-E7659D3D745B.png"></center>
+      <p class="slogan green">13 Actions, 31 Shortcut Supported Fonts</p>
+        <center><button class="download green greenhover" onclick="display('fontSwitcher')">Read More</button>
+        <a href="https://routinehub.co/shortcut/8264/" class="download green greenhover">Get This Shortcut</a></center>
+        
+        <h1 class="orange">Quick Look HTML Generator</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/40A63BEB-721C-4E15-9D07-80B25E90A59A.png"></center>
+      <p class="slogan orange">No coding experience required to make beautiful HTMLs for your shortcuts, such as a welcome screen</p>
+        <center><button class="download orange orangehover" onclick="display('quickLookHTMLGenerator')">Read More</button>
+          <a href="https://routinehub.co/shortcut/9097/" class="download orange orangehover">Get This Shortcut</a></center>
+       <h1 class="violet">Material Icon Creator</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/C435BFA3-FA73-413A-B149-5857212A7218.png"></center>
+      <p class="slogan violet">Upgrade your vCard menus with 2000+ icons in up to 5 styles and billions of colour combinations</p>
+        <center><button class="download violet violethover" onclick="display('GFVIC')">Read More</button>
+          <a href="https://routinehub.co/shortcut/9254/" class="download violet violethover">Get This Shortcut</a></center>
+       <h1 class="blue">Coloured vCards</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/2C159D8B-D903-461F-8479-FA18F9E2642B.png"></center>
+      <p class="slogan blue">Create coloured or gradiented vCard menus in shortcuts without large base64 encodings</p>
+        <center><button class="download blue bluehover" onclick="display('vCards')">Read More</button>
+          <a href="https://routinehub.co/shortcut/9882/" class="download blue bluehover">Get This Shortcut</a></center>
+        <br><p style="font-size:10px;text-align:center;">Send us feedback here <a class="yellowgreen"href="mailto:ProCutsCollection@outlook.com">ProCutsCollection@outlook.com</a>. Give us feedback or report bugs on any of our shortcuts. Suggestions are appreciated as well.</p>
+</div>
+
+      <div id="sharpUpdater" style="display:none">
+        <h1 class="teal">Sharp Updater</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/7F04C9C0-041F-4334-A7CA-EF3412779201.png"></center>
+      <p class="slogan teal">Clean, 7-Action Embedded Visual Shortcut Updater</p>
+        <p>Sharp Updater provides a reliable solution to embed an updater into your <a href="https://routinehub.co/" class="teal">RoutineHub</a> shortcuts. This will allow the shortcut’s users to easily get the newest versions of your shortcuts.</p>
+<h2>Sharp Updater Is The Best Updater</h2>
+      <strong><ul>
+        <li>Low Actions (7)</li>
+        <li>Easy To Embed</li>
+        <li>Visually Appealing</li>
+        <li>No External Shortcuts</li>
+        <li>Customizable</li>
+        <li>Fast</li>
+        <li>Reliable</li>
+      </ul></strong>
+      <h2>When Finished, It Will Look Something Like This</h2>
+      <center><img src="https://www.linkpicture.com/q/AF48B2AD-7849-48C8-8E2A-892B37EAE10C.jpeg"></center>
+      <h2>Update Outcomes</h2>
+      <p>There are three possible outcomes when someone tries to update the shortcut.</p>
+      <h3>New Version</h3>
+        <center><img class="phone" src="https://www.linkpicture.com/q/98B3CB62-8F88-4ABE-8157-0680E82F4E38.png"></center>
+      <h3>Up-To-Date</h3>
+        <center><img class="phone" src="https://www.linkpicture.com/q/77A455B1-733F-4BB2-B94F-1952F8B325A9.png"></center>
+      <h3>Internet Error</h3>
+        <center><img class="phone" src="https://www.linkpicture.com/q/A44E7182-D8F6-4172-BE90-4728F50F84A2.png"></center>
+        <div class="bottom">&nbsp;</div>
+        <div class="fixed"><center><button class="download teal tealhover" onclick="display('home')">Home</button>
+        <a href="https://routinehub.co/shortcut/9073/" class="download teal tealhover">Get This Shortcut</a></center></div>
+      </div>
+            <div id="fontSwitcher" style="display:none">
+        <h1 class="green">Font Switcher</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/9F666571-F1B3-41CB-AABE-E7659D3D745B.png"></center>
+      <p class="slogan green">13 Actions, 31 Shortcut Supported Fonts</p>
+        <p>An easy way to jazz up your comments, texts and titles. These fonts work in any actions, weather it is an alert, menu, choose from list, or more.</p>
+              <center><img src="https://www.linkpicture.com/q/B8CE0895-25A8-4E0E-96B9-0CBF0795653E.jpeg"></center>
+        <div class="bottom">&nbsp;</div>
+        <div class="fixed"><center><button class="download green greenhover" onclick="display('home')">Home</button>
+        <a href="https://routinehub.co/shortcut/8264/" class="download green greenhover">Get This Shortcut</a></center></div></div>
+      
+           <div id="fancyListMaker" style="display:none">
+       <h1 class="red">Fancy List Maker</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/DB8EDC56-7027-4170-BC09-BC7563DE6C8C.png"></center>
+      <p class="slogan red">The best vCard maker. Edit, add, remove or rearrange items in your vCard menu with ease</p>
+             <center><img src="https://www.linkpicture.com/q/39422391-67B1-4C0C-B1CE-2E6BC4970FF8.png" class="phone"></center>
+             <p>Fancy List Maker helps you create professional looking list for your shortcuts. Not only do these vCard menus add colour to an otherwise dull list, but they make your shortcuts easier to navigate.</p>
+             <center><img src="https://www.linkpicture.com/q/60253F54-E18F-4C5E-8A1F-8ACB92E617C5.png" class="phone"></center>
+        <p>Fancy list maker is very easy to use. You can even copy an old vCard menu to your clipboard and run this shortcut to edit it. If your new to vCards, it has a step by step installation process.</p>
+             <h2>Here's A Cool Example:</h2>
+             <center><img src="https://www.linkpicture.com/q/19FD453A-4C00-44AC-8B71-0FDD383F2991.png" class="phone"></center>
+        <div class="bottom">&nbsp;</div>
+        <div class="fixed"><center><button class="download red redhover" onclick="display('home')">Home</button>
+        <a href="https://routinehub.co/shortcut/9083/" class="download red redhover">Get This Shortcut</a></center></div></div>
+      
+<div id="quickLookHTMLGenerator" style="display:none">
+       <h1 class="orange">Quick Look HTML Generator</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/40A63BEB-721C-4E15-9D07-80B25E90A59A.png"></center>
+      <p class="slogan orange">No coding experience required to make beautiful HTMLs for your shortcuts, such as a welcome screen</p>
+    <center><img class="phone"src="https://www.linkpicture.com/download.php?filename=4A559CEB-4EC5-4241-BBFD-7DC3440890F9.png"></center>
+        <p>Give your shortcuts a professional feeling with these easy-to-make very customizable HTMLs. No coding experience required, you can make screens like documentations, help, welcome, update changes, version history/change log and more.</p>
+    <center><img class="phone" src="https://www.linkpicture.com/q/AFDA5D77-9311-4F95-9DD1-8C1D5AC6E9F1.png"></center>
+  <p>Supporting light and dark mode, these screens are perfect for many situations. They allow you to share your information is visually appealing ways and are easy to use in your shortcuts. With all these benefits there should be no reason to go without these crisp looking HTMLs!</p>
+        <div class="bottom">&nbsp;</div>
+        <div class="fixed"><center><button class="download orange orangehover" onclick="display('home')">Home</button>
+        <a href="https://routinehub.co/shortcut/9097/" class="download orange orangehover">Get This Shortcut</a></center></div></div>
+      <div id="tools" style="display:none;">
+        <h1 style="color:white;">Helpful Tools</h1>
+        <p>When developing shortcuts, it’s crucial to use your resources to help improve workability. We use many tools to help prefect our shortcuts. The following are some very useful tools we use that we think are important to share. We did not develop nor are we affiliated with any of these helpful tools.</p>
+        <h2><a href="https://www.linkpicture.com/en/?set=en">Link Picture</a></h2>
+        <center><img src="https://linkpicture.com/Images/nlogo.png" style="width:80%"></center>
+        <p>We used Link Picture quite a bit in our shortcuts. Link picture is a website that allows you to upload a picture and obtain the direct link to it. We use these links to save space in our shortcuts (instead of large base64 encodes). We usually used them in the HTMLs.</p>
+        <h2><a href="https://mockuphone.com/device">Phone Mock-Ups</a></h2>
+        <center><img src="https://www.linkpicture.com/q/EA935789-1FA5-40F0-AD34-F524ACB9FC63.jpeg" style="width:80%"></center>
+        <p>To make your image examples look professional, you can use this website. It puts your screenshot examples into a phone mock-up. As you see, we used these to show what our shortcut’s end results can be. The process is extremely easy and there are an abundance of devices to choose from.</p>
+        <h2><a href="https://routinehub.co/shortcut/4626/">Dictionary Action Builder</a></h2>
+        <center><img src="https://www.linkpicture.com/q/C286638F-BF01-49D2-A38B-D921110BECED.jpeg" style="width:80%"></center>
+        <p>Turn your raw JSON files into a shortcut "Dictionary" action with this shortcut made by <a href="https://routinehub.co/user/gluebyte">@glubyte</a>. This can be extremely helpful when working with large dictionaries or other coding languages. It’s definitely a valuable addition to your development tools collection. This shortcut was used in the Font Switcher shortcut to create a dictionary faster than putting in each individual letter.</p>
+        <h2><a href="">Copy And Paste A Shortcut</a></h2>
+       <center><img src="https://www.linkpicture.com/q/94AF07C7-D148-4D12-BB1F-22BD625352A0.jpeg" style="width:80%"></center>
+        <p>Easily copy actions from one of your shortcuts into another using this tool by <a href="https://routinehub.co/user/robric18">@robric18</a>. This is helpful in many cases, such as if you use a snippet of code in most of your shortcuts (like an updater). Instead of copying it action by action, just run this shortcut to copy and paste all the actions at once. Although a bit excessive in the settings, it is very easy to use. We would advise using the quick copy action for all of your needs.</p>
+      </div>
+     <div id="GFVIC" style="display:none">
+        <h1 class="violet">Material Icon Creator</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/C435BFA3-FA73-413A-B149-5857212A7218.png"></center>
+      <p class="slogan violet">Upgrade your vCard menus with 2000+ icons in up to 5 styles and billions of colour combinations</p>
+       <p> Material Icon Creator is made for you, the developer. With over 2000 icons to choose from and many colour combinations, it trumps shortcut icons. Customize icons however you like until you have the perfect design for your shortcut.</p>
+       <center> <img src="https://i.ibb.co/wMP5KxF/2-FEF0708-D072-4-C3-A-A6-F4-3-C00024-A71-FB.png" alt="Icon Examples"> </center>
+       <p>
+  With Material Icon Creator’s easy to use interface, you can design the icons with ease. If you get stumped and don’t know what colours to use, you can choose from a pre-made list of shortcut colours or 50 built in gradients from <a href="https://uigradients.com" class="violet" style="text-decoration:underline;">https://uigradients.com</a>.
+      </p>
+<p>When finished designing the icons, you can share them directly to <a onclick="display('fancyListMaker')" class="violet" style="text-decoration:underline;">Fancy List Maker</a>, copy a JSON of the base encoded icons and save the icons to your photo library.
+        <div class="bottom">&nbsp;</div>
+        <div class="fixed"><center><button class="download violet violethover" onclick="display('home')">Home</button>
+        <a href="https://routinehub.co/shortcut/9254/" class="download violet violethover">Get This Shortcut</a></center></div></div>
+      
+            <div id="vCards" style="display:none">
+       <h1 class="blue">Coloured vCards</h1>
+      <center><img class="icon" src="https://www.linkpicture.com/q/2C159D8B-D903-461F-8479-FA18F9E2642B.png"></center>
+      <p class="slogan blue">Create coloured or gradiented vCard menus in shortcuts without large base64 encodings</p>
+        <p>Coloured vCards provides a simple way to not only create colourful vCard menus, but  use less device storage by avoiding large base64 encodings. The snippet uses JavaScript to craft the menu which is faster than the average vCard and the very customizable input dictionary will provide countless options that surpasses the average vCard menu.</p>
+
+<p>Coloured vCards supplies the snippet to make these vCard menus and a documentation to learn the input dictionary. Coloured vCards can be used for many purposes and ultimately makes the menu more appealing and distinguishable.</p>
+
+<p>The icons in the menu can be mono-coloured or dou-coloured, gradiented, linear or radical, and even rotated. You can also choose the titles and subtitles of the items and even the email for unseen information.</p>
+              <center><img src="https://www.linkpicture.com/q/FFC2E488-09F8-488F-BB49-BBD2C0F337FD.jpeg"></center>
+        <div class="bottom">&nbsp;</div>
+        <div class="fixed"><center><button class="download blue bluehover" onclick="display('home')">Home</button>
+        <a href="https://routinehub.co/shortcut/9882/" class="download blue bluehover">Get This Shortcut</a></center></div></div>
+  <script>
+      document.body.scrollTop = 0
+        function display(x) {
+setTimeout(function(){
+                  for(var i of ["home","sharpUpdater","fontSwitcher","fancyListMaker","quickLookHTMLGenerator","tools","GFVIC","vCards"]) {
+   document.getElementById(i).style.display = "none"
+        }
+   document.getElementById(x).style.display = "block"
+document.body.scrollTop = 0
+  if(document.getElementById("navbuttons").style.display === "block"){
+    nav();
+    toptoggle()
+  }}, 500);
+     }
+          function nav() {
+  var x = document.getElementById("navbuttons");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+      }
+              function toptoggle() {
+ document.getElementById('topmenu').classList.toggle('change')
+      }
+  </script> 
+</body>
+</html>
