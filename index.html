@@ -130,88 +130,6 @@
   .orange{color:#E7A152;}
   .violet{color:#724BAB;}
   .blue{color:#42A7E9;}
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px;
-}
-
-header nav ul li {
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section.hero {
-    text-align: center;
-    padding: 50px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-}
-
-#about-us .profile-picture img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-.code-block {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-button.copy-btn {
-    background-color: #9acd32;
-    color: white;
-    border: none;
-    padding: 5px 15px;
-    cursor: pointer;
-}
-
-button.copy-btn:hover {
-    background-color: #7bb731;
-}
-
-.back-btn {
-    text-decoration: none;
-    color: #9acd32;
-    font-weight: bold;
-}
-
-@media screen and (min-width: 768px) {
-    /* Adaptation pour les écrans plus larges (PC) */
-    header nav ul {
-        justify-content: flex-start;
-    }
-    .hero h1 {
-        font-size: 3rem;
-    }
-}
-
     </style>
 </head>
     <body>
@@ -378,23 +296,6 @@ button.copy-btn:hover {
         <div class="bottom">&nbsp;</div>
         <div class="fixed"><center><button class="download blue bluehover" onclick="display('home')">Home</button>
         <a href="https://routinehub.co/shortcut/9882/" class="download blue bluehover">Get This Shortcut</a></center></div></div>
-        <div id="about-us">
-            <section class="about">
-            <div class="profile-picture">
-                <img src="photo-profile.jpg" alt="Mon profil">
-            </div>
-            <h2><span style="color: #9acd32; font-weight: bold;">Nom Prénom</span></h2>
-            <p>
-                Hello, we're MKT, a team passionate about web development and content creation.
-                This site brings together a collection of resources, code and projects we've been working on.
-                We hope you'll find it useful for your own development journey.
-            </p>
-        </section>
-
-        <footer>
-            onclick="display('home')">Home</button>
-        </footer>
-    </div>
   <script>
       document.body.scrollTop = 0
         function display(x) {
